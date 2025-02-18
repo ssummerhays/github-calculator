@@ -12,7 +12,7 @@ public class Main {
     };
 
     for (String command : commands) {
-      System.out.println("Processing command: " + command);
+      System.out.println("Enter a command: \n" + command);
       String[] parts = command.split(" ");
 
       if (command.equalsIgnoreCase("exit")) {
